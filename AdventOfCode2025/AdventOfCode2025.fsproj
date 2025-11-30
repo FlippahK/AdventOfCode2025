@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+	<NoWarn>FS0025;FS3391;FS0097;FS0067</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Utility.fs" />
+    <Compile Include="Day2024_01.fs" />
+    <Compile Include="DataFetch.fs" />
+    <Compile Include="Program.fs" />
+
+	  <Content Include="Data\**">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Argu" Version="6.2.5" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="FParsec-Pipes" Version="1.1.2" />
+    <PackageReference Include="FSharp.Configuration" Version="2.0.0" />
+    <PackageReference Include="FSharpx.Collections" Version="3.1.0" />
+    <PackageReference Include="FsHttp" Version="15.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
