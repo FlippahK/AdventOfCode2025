@@ -55,7 +55,7 @@ let getMethods (moduleType: Type) parts =
 [<EntryPoint>]
 let main argv =
     let arguments =  ArgumentParser.Create<CLIArgs>(programName = "AdventOfCode").Parse(argv)
-    printfn "Advent of Code 2024 Solutions"
+    printfn "Advent of Code 2025 Solutions"
 
     maybe {
 

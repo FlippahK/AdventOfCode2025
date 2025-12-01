@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/Solution items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="AdventOfCode2025/AdventOfCode2025.fsproj" />
+  <Project Path="AdventOfCore2025.Tests/AdventOfCore2025.Tests.fsproj" Id="3d5193d3-cf50-4e33-b136-7a29cd7e90f7" />
 </Solution>
