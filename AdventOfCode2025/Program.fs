@@ -59,9 +59,9 @@ let main argv =
 
     maybe {
 
-        let dayResult = arguments.TryGetResult <@ Day @>
+        let dayResult = arguments.GetResult(<@ Day @>, DateTime.Now.Day)
         printfn $"Day argument: {dayResult}"
-        let! day = dayResult
+        let day = dayResult
 
         let yearResult = arguments.GetResult(<@ Year @>, DateTime.Now.Year)
         printfn $"Year argument: {yearResult}"

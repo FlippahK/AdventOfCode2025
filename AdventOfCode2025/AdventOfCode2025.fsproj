@@ -11,14 +11,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Utility.fs" />
+    <Compile Include="Day2025_02.fs" />
     <Compile Include="Day2025_01.fs" />
     <Compile Include="Day2024_01.fs" />
     <Compile Include="DataFetch.fs" />
     <Compile Include="Program.fs" />
 
-	  <Content Include="Data\**">
-		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	</Content>
+	<Content Include="Data\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="app.config.template" />
   </ItemGroup>
 
   <ItemGroup>
