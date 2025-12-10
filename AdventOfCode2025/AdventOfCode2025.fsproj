@@ -12,6 +12,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Utility.fs" />
+    <Compile Include="Day2025_10.fs" />
     <Compile Include="Day2025_09.fs" />
     <Compile Include="Day2025_08.fs" />
     <Compile Include="Day2025_07.fs" />
@@ -41,10 +42,11 @@
     <PackageReference Include="FSharp.Configuration" Version="2.0.0" />
     <PackageReference Include="FSharpx.Collections" Version="3.1.0" />
     <PackageReference Include="FsHttp" Version="15.0.3" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Z3" Version="4.12.2" />
     <PackageReference Include="NetTopologySuite" Version="2.6.0" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.1" />
   </ItemGroup>
 
 </Project>
