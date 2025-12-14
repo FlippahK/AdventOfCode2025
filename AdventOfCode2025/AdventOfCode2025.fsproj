@@ -12,6 +12,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Utility.fs" />
+    <Compile Include="Day2025_12.fs" />
     <Compile Include="Day2025_11.fs" />
     <Compile Include="Day2025_10.fs" />
     <Compile Include="Day2025_09.fs" />

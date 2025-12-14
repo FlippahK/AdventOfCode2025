@@ -10,11 +10,11 @@ let sample = "987654321111111
 
 [<Tests>]
 let tests =
-    ptestList "Day 2025 03" [
+    testList "Day 2025 03" [
         testCase "Part 1" <| fun _ ->
             Day2025_03.part1 sample
             |> Expect.equal "The expected value is " 357
         testCase "Part 2" <| fun _ ->
             Day2025_03.part2 sample
-            |> Expect.equal "The expected value is " 0
+            |> Expect.equal "The expected value is " 3121910778619L
     ]
